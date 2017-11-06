@@ -1,0 +1,165 @@
+Q1.__________is raised if I do not provide the String array as the argument to the main method.
+
+1). NullPointerException
+2). IllegalAccessException
+3). NoSuchMethodError
+4). None of the above 
+Solution :
+option [3] is correct
+
+
+
+
+Q2.public class Demos {
+        public static void main(String[] args) {
+       int arr[5]={1,2,3,4,5};
+        for(int ele:arr){
+        System.out.print(str);}
+}
+What will be the output of above code?
+
+1). 12345
+2). no output
+3). ArrayIndexOutOfBounds Exception
+4). Compilation Error
+Solution :
+option [4] is correct
+
+
+
+
+Q3. class ArrayDemo
+{
+public static void main(String []args){
+String str = "Hello World";
+int []arr = {1,2,3,4,5};
+display(arr,str);
+}
+public static void display(int …arr,String str)
+{
+for(int num:arr){System.out.println(num);}
+System.out.println(str);
+}
+}
+
+1). 12345Hello World
+2). Hello World
+3). NumberFormatException
+4). Compilation Error
+Solution :
+option [4] is correct
+
+
+
+
+Q4.Which of the following statements are true related to exception handling in java ?
+
+1). UserDefined exception can be created by extending from RunTimeException class
+2). Throwable is the base class of Error and Exception class .
+3). Checked Exception need to be handled either by try and catch block or by using throws keyword in a code before compilation.
+4). All of the above
+Solution :
+option [4] is correct
+
+
+
+
+Q5. In Java arrays are ___________.
+
+1). objects
+2). object references
+3). primitive data type
+4). All of the above
+Solution :
+option [1] is correct
+
+
+
+Q6. What is the output of the following program?
+
+class Test {
+public static void main(String[] args) {
+try {
+doMath(5);
+System.out.print("hi");
+}
+finally { System.out.println(" from finally"); }
+}
+public static void doMath(int den) {
+int num = 7 / den;
+}
+}          
+
+1). hi from finally
+2). hi
+from finally
+3). prints hi from finally 2 times
+4). None of the above
+Solution :
+option [1] is correct
+
+
+
+Q7. Given:
+try { int number = Integer.parseInt("two"); }
+
+Which could be used to create an appropriate catch block?        
+
+1). ClassCastException
+2). IllegalStateException
+3). NumberFormatException
+4). None of the above is true
+Solution :
+option [3] is correct
+
+
+Q8. public class Test{
+        public static void main(String[] args){
+                int[] a = new int[0];
+                System.out.print(a.length);
+        }
+}
+
+1). 1
+2). 0
+3). Compilation error, arrays cannot be initialized to zero size.
+4). Compilation error, it is a.length() not a.length
+Solution :
+option [2] is correct
+
+
+
+Q9. What will be the output of following program ?
+public class Foo 
+{  
+    public static void main(String[] args) 
+    {
+        try 
+        { 
+            return; 
+        } 
+        finally 
+        {
+            System.out.println( "Finally" ); 
+        } 
+    } 
+}
+
+1). Finally
+2). Compilatation fails .
+3). No output.
+4). runtime Exception
+Solution :
+option [1] is correct
+
+
+Q. Which of the given statement will ensure that each resource is closed at the end of statement?
+
+1). try with resource
+2). call to close() function on the resource
+3). try with resource and finally
+4). try with catch
+Solution :
+option [1] is correct
+
+
